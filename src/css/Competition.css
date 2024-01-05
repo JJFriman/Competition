@@ -1,0 +1,51 @@
+.competition-container {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.team-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+.team-card h3,
+.team-card p {
+  margin: 5px 0; /* Adjust spacing between team name and members */
+}
+
+.team-card.gold {
+  background-color: gold;
+}
+
+.team-card.silver {
+  background-color: silver;
+}
+
+.team-card.bronze {
+  background-color: #cd7f32; /* Bronze color */
+}
+
+.tasks-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.task {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.combined-time {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

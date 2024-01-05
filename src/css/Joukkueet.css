@@ -1,0 +1,55 @@
+/* Joukkueet.css */
+
+ul.team-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  
+  ul.team-list li.team-card {
+    margin: 4px;
+    padding: 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    position: relative;
+    transition: transform 0.2s;
+  }
+  
+  ul.team-list li.team-card:nth-child(even) {
+    background-color: #D94F00;
+  }
+  
+  ul.team-list li.team-card:hover {
+    transform: scale(1.05);
+    z-index: 1;
+  }
+  
+  ul.team-list li.team-card .team-info {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 2;
+  }
+  
+  ul.team-list li.team-card:hover .team-info {
+    display: block;
+  }
+  
+  h2.team-heading {
+    text-align: center;
+  }
+
+  .joukkue-edit {
+    margin-top: 20px; /* Add margin to position JoukkueEdit component at the top */
+  }
